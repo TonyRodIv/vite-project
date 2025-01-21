@@ -1,6 +1,6 @@
 function Tasks(){
     return(
-        <h2 className="text-sky-800">Tasks Here</h2>
+        <h2>Tasks Here</h2>
     )
 }
 
