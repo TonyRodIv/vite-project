@@ -4,10 +4,9 @@ import AddTasks from './components/AddTasks'
 
 function App() {
   return(
-    <div className='w-screen h-screen bg-slate-500 flex justify-center p-6'>
-      <h1 className='text-red-600 text-3xl'>Gerenciador de tarefas</h1>
-      <AddTasks />
+    <div className='bg-indigo-950 w-full h-screen flex flex-col items-center '>  
       <Tasks />
+      <AddTasks />
     </div>
   )
 }
